@@ -1,0 +1,47 @@
+$direction: 135deg;
+$color1: #6c757d;
+$color2: #e9ecef;
+
+body {
+  background-image: linear-gradient($direction, $color1, $color2);
+  background-attachment: fixed;
+}
+
+.box {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  input {
+    border-radius: 8px;
+  }
+}
+.box p {
+  margin: 0px;
+  border-bottom: 1px solid brown;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin errormsg($colory: blue) {
+  background-color: $colory;
+  margin: 20px;
+  height: 250px;
+  width: 250px;
+}
+
+.error_A {
+  @include errormsg($colory: darkgreen);
+}
+.error_B {
+  @include errormsg($colory: darkred);
+}

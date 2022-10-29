@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient(135deg, #6c757d, #e9ecef);
+  background-attachment: fixed;
+}
+
+.box {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+.box input {
+  border-radius: 8px;
+}
+
+.box p {
+  margin: 0px;
+  border-bottom: 1px solid brown;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.error_A {
+  background-color: darkgreen;
+  margin: 20px;
+  height: 250px;
+  width: 250px;
+}
+
+.error_B {
+  background-color: darkred;
+  margin: 20px;
+  height: 250px;
+  width: 250px;
+}
+
+/*# sourceMappingURL=style.css.map */
